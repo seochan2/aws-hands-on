@@ -4,6 +4,7 @@
 * AWS Lambda와 Amazon SNS, Amazon EventBridge를 활용하여, 스케줄링을 통한 SMS 발송하기
 
 ## 아키텍처
+![sending-sms](./sending-sms.png)
 
 ## 세부 내용
 ### 1. SMS 샌드박스 작업
