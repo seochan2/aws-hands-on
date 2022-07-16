@@ -12,7 +12,7 @@
 
 ### Lambda 생성
 > 1. 신규 Lambda 생성
-- 런타임 - Python 3.7 
+>     * 런타임 - Python 3.7 
 > 2. 아래 소스 코드 입력
 ```
 import json
@@ -38,13 +38,12 @@ def lambda_handler(event, context):
     }
 ```
 > 3. Lambda 실행 역할에 "AmazonSNSFullAccess" 추가
-> 4. Test 및 Deploy 실행하여, 정상 동작 확인 
-- Test Event는 기본값 그대로 사용
-> 5. "phoneNumber", "message"로 구성된 이벤트 JSON 객체로 호출하도록, Test Event 재구성
+> 4. Test Event로 함수를 호출하여, 정상 동작 확인
+> 5. 하드코딩된 "PhoneNumber", "Message" 값을 Event JSON 객체로 호출하도록, Test Event 추가 및 소스 변경
 
 ### EventBridge에서 Cron식 생성
 > 1. 아래 규칙에 맞는 신규 규칙(Cron식) 생성
-- 2022년 7월, 매주 목요일 00:00:00 UTC에 실행
+>     * 2022년 7월, 매주 목요일 00:00:00 UTC에 실행
 > 2. 앞에서 생성한 Lambda 연결
 
 ## 제출 결과물
