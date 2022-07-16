@@ -51,5 +51,5 @@ def lambda_handler(event, context):
 
 ## 제출 결과물
 > 1. Lambda ARN	
-> 2. Lambda 최종 소스("Lambda 생성" 5번 내용 반영된 소스)
+> 2. Lambda 최종 소스("Lambda" 5번 내용 반영된 소스)
 > 3. EventBridge Cron식
