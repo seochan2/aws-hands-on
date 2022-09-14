@@ -3,9 +3,9 @@
 ## 목표
 ### [ALB]
 - ALB 엑세스 로그 활성화 및 로그 파일 다운로드
-- https://www.google.com/url?sa=t&source=web&rct=j&url=https://docs.aws.amazon.com/ko_kr/elasticloadbalancing/latest/application/load-balancer-access-logs.html&ved=2ahUKEwjMspqCmJP6AhXKBN4KHT8XCMMQFnoECDMQAQ&usg=AOvVaw2Z0lOE14kkLh0dByqFNeFC
+- https://docs.aws.amazon.com/ko_kr/elasticloadbalancing/latest/application/load-balancer-access-logs.html
 ### [RDS]
-- Amazon RDS MySQL에 대한 Audit log 구성 및 CloudWatch를 통한 log 확인
+- Amazon RDS MySQL에 대한 Audit 로그 구성 및 CloudWatch를 통한 로그 확인
 - https://aws.amazon.com/ko/blogs/korea/configuring-an-audit-log-to-capture-database-activities-for-amazon-rds-for-mysql-and-amazon-aurora-with-mysql-compatibility/
 
 ## 세부내용
@@ -25,7 +25,7 @@
 #### Option 그룹 정책 적용
 - RDS Databases > Modify > Log exports에서 Audit log 체크(CloudWatch Log Groups에서 확인을 위한 설정)
 #### 활성화된 Audit 로그 확인 및 다운로드
-- CloudWatch > Logs > Log groups > /aws/rds/instance/database명/audit
+- CloudWatch > Logs > Log groups > /aws/rds/instance/'database명'/audit
 - Actions > Exports results > Download search results(CSV)
 
 ## 제출 결과물
@@ -36,4 +36,4 @@
 
 ## 발표내용
 - 엑세스 로그 / Audit 로그 활성화 관련 작업내용 리뷰
-- 발표직전 랜덤으로 발표자 선정
+- 발표 직전, 랜덤으로 발표자 선정
