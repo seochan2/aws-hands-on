@@ -19,6 +19,7 @@
 - ALB 접속 테스트를 통하여 로그 생성후, 해당 로그 파일 다운로드
 
 ### [RDS]
+#### Amazon RDS MySQL 생성
 #### Audit 플러그인 활성화
 - Option 그룹 생성
 - MARIADB_AUDIT_PLUGIN 선택
