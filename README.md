@@ -10,4 +10,5 @@
 #### [AWS CI/CD Workshop](https://aws-ci-cd.workshop.aws)
 
 ## 도전과제
+#### [ALB 엑세스 로그 / RDS 감사 로그 구성](/configuring-log/README.md)
 #### [AWS Lambda와 Amazon SNS를 활용한 SMS 발송](/sending-sms/README.md)
