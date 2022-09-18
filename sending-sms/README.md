@@ -39,7 +39,16 @@ def lambda_handler(event, context):
 ```
 > 3. Lambda 실행 역할에, SNS 관련 권한 추가
 > 4. Test Event로 함수를 호출하여, 정상 동작 확인
-> 5. 하드코딩된 "PhoneNumber", "Message" 값을 Event JSON 객체로 호출하도록, Test Event 추가 및 소스 변경
+>
+> > #### 추가작업1
+> > 
+> > a. 하드코딩된 "PhoneNumber", "Message" 값을 Event JSON 객체로 호출하도록, Test Event 추가 및 소스 변경
+>
+> > #### 추가작업2
+> > 
+> > a. Amazon SNS Topics 및 Subscriptions(Protocol은 SMS) 설정
+> > 
+> > b. PhoneNumber 대신 Topics ARN로 호출하도록, 소스 변경
 
 ### EventBridge
 > 1. 아래 규칙에 맞는 신규 규칙(Cron식) 생성
@@ -51,5 +60,5 @@ def lambda_handler(event, context):
 
 ## 제출 결과물
 > 1. Lambda ARN	
-> 2. Lambda 최종 소스("Lambda" 5번 내용 반영된 소스)
+> 2. Lambda 최종 소스(추가작업 내용까지 반영된 소스)
 > 3. EventBridge Cron식
