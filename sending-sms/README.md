@@ -48,7 +48,7 @@ def lambda_handler(event, context):
 > > 
 > > a. Amazon SNS Topics 및 Subscriptions(Protocol은 SMS) 설정
 > > 
-> > b. PhoneNumber 대신 Topics ARN로 호출하도록, 소스 변경
+> > b. PhoneNumber 대신 Topics ARN으로 호출하도록, 소스 변경
 
 ### EventBridge
 > 1. 아래 규칙에 맞는 신규 규칙(Cron식) 생성
