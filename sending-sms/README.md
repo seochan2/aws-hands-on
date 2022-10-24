@@ -52,10 +52,9 @@ def lambda_handler(event, context):
 
 ### EventBridge
 > 1. 아래 규칙에 맞는 신규 규칙(Cron식) 생성
->     * 2022년 9월, 매주 목요일 00:00:00 UTC에 실행
+>     * 2022년 10월, 매주 목요일 00:00:00 UTC에 실행
 >     * Next 10 trigger date(s)
->         * Thu, 22 Sep 2022 00:00:00 UTC 
->         * Thu, 29 Sep 2022 00:00:00 UTC 
+>         * Thu, 27 Oct 2022 00:00:00 UTC 
 > 2. 생성한 Lambda 연결
 
 ## 제출 결과물
