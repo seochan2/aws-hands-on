@@ -9,6 +9,14 @@
 #### [Amazon EKS Workshop](https://www.eksworkshop.com)
 #### [AWS CI/CD Workshop](https://aws-ci-cd.workshop.aws)
 
-## 도전과제
+***
+
+## 기본 Hands-On
+#### [AWS Budgets를 활용한 사용요금 SMS 알림](/budgets-sms-alerts/README.md)
+#### [AWS Lambda와 Amazon SNS를 활용한 사용요금 일일 SMS 알림](/daily-cost-sms-alerts/README.md)
+
+***
+
+## 도전 과제
 #### [ALB 엑세스 로그 / RDS 감사 로그 구성](/configuring-log/README.md)
 #### [AWS Lambda와 Amazon SNS를 활용한 SMS 발송](/sending-sms/README.md)
