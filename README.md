@@ -12,8 +12,8 @@
 ***
 
 ## 기본 Hands-On
-#### [AWS Budgets를 활용한 사용요금 SMS 알림](/budgets-sms-alerts/README.md)
-#### [AWS Lambda와 Amazon SNS를 활용한 사용요금 일일 SMS 알림](/daily-cost-sms-alerts/README.md)
+#### [AWS Budgets를 활용한 요금 SMS 알림](/budgets-sms-alerts/README.md)
+#### [AWS Lambda와 Amazon SNS를 활용한 요금 일일 SMS 알림](/daily-cost-sms-alerts/README.md)
 
 ***
 
