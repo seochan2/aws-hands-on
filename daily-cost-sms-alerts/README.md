@@ -9,7 +9,7 @@
 #### Function 생성
 - AWS Lambda > Dashboard > Create function 선택
 
-- Function name에 "SMSBudgetAlertLambda" 입력<br>
+- Function name에 `SMSBudgetAlertLambda` 입력<br>
 Runtime은 Python 3.12 선택후, Create function 선택
 
 ![](./images/240320_101.png)
@@ -97,9 +97,9 @@ Event name에 "Run" 입력 후, Save 클릭<br>
 
 - Trigger configuration 에서 EventBridge (CloudWatch Events) 검색하여 선택<br>
 Rule은 Create a new rule 선택<br>
-Rule name 은 DailyAlertCron 입력<br>
+Rule name은 `DailyAlertCron` 입력<br>
 Rule Type은 Schedule expression 선택<br>
-Schedule expression은 cron(0 0 * * ? *) 입력, 매일 오전 9시 실행<br>
+Schedule expression은 `cron(0 0 * * ? *)` 입력, 매일 오전 9시 실행<br>
 Add 선택<br>
 
 ![](./images/240320_111.png)
