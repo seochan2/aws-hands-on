@@ -102,7 +102,7 @@ Rule Type은 Schedule expression 선택<br>
 Schedule expression은 `cron(0 0 * * ? *)` 입력, 매일 오전 9시 실행<br>
 Add 선택<br>
 
-![](./images/240320_111.png)
+![](./images/240320_111a.png)
 
 - Lambda와 EventBridge 연결 확인
 
