@@ -113,4 +113,5 @@ EventBridge > Scheduler > Schedules > Create schedule에서와 동일
 <br>
 
 ### 리소스 정리(과금 주의)
-- 생성한 Lambda function > configuration > Trigger, DailyAlertCron 트리거 삭제
+- 생성한 Lambda function > configuration > Trigger, DailyAlertCron Trigger 삭제 <br>
+: SMS 발송 중지를 위한 Trigger 삭제(SMS 발송 건당 $0.02414)
